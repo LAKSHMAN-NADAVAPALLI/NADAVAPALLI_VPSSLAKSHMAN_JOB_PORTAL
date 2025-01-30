@@ -1,0 +1,98 @@
+.dashboard-container {
+  padding: 20px;
+  background-color: #fffafa;
+}
+
+.profile-section {
+  background: rgb(249, 207, 110);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.profile-picture-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.edit-profile-btn, .save-changes-btn, .cancel-btn, .apply-btn, .applied-btn, .submit-application-btn, .cancel-application-btn, .confirm-cancel-btn, .cancel-cancel-btn {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.edit-profile-btn:hover, .save-changes-btn:hover, .apply-btn:hover, .submit-application-btn:hover, .confirm-cancel-btn:hover {
+  background-color: #0056b3;
+}
+
+.cancel-btn:hover, .cancel-application-btn:hover, .cancel-cancel-btn:hover {
+  background-color: #dc3545;
+}
+
+.jobs-section {
+  background: rgb(224, 155, 228);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.jobs-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.job-card {
+  background: #b4f0eb;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.job-card strong {
+  font-size: 1.1em;
+}
+
+.job-card p {
+  margin: 5px 0;
+}
+
+.application-form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.application-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.cancel-application-modal {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cancel-application-modal button {
+  margin-top: 10px;
+}

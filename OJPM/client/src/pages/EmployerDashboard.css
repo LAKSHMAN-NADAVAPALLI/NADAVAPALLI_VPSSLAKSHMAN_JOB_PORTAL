@@ -1,0 +1,107 @@
+.employerdashboard-container {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #37ee09 !important; /* This is the red color you want */
+  padding: 20px;
+  
+  min-width: 400px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+  margin-top: 0%;
+}
+
+h2 {
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+  text-decoration-line: underline;
+  font-weight: bolder;
+}
+h3 {
+  color: #333;
+  font-size: 30px;
+  margin-left: 70px;
+  font-weight: bolder;
+  
+}
+
+
+
+
+button {
+  background-color: #0193fb;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-right: 10px;
+  
+}
+
+button:hover {
+  background-color: #d800e4;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="date"], 
+input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  font-weight: bold;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+.employerjobs-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.employerjob-card {
+  background: #f8d6a7 !important;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.employerjob-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.employerjob-card strong {
+  color: #007bff;
+}
+
+.employerjob-card p {
+  margin: 5px 0;
+  color: #f12323;
+}
+
+.employerprofile-picture-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.profile-picture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #000;
+}

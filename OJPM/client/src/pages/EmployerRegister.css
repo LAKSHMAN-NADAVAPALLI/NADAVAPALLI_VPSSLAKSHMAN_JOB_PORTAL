@@ -1,0 +1,73 @@
+/* EmployerRegister.css */
+
+.employerregister-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0055ff;
+    padding: 20px;
+  }
+  
+  .employerregister-form {
+    background-color: #5fe7ef;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+  
+  .employerregister-form h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .employerregister-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .employerregister-form input:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  .employerregister-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .employerregister-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .employerregister-form p {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 20px;
+  }
+  
+  .employerregister-form p.error {
+    color: red;
+  }
+  
+  .employerregister-form p.success {
+    color: green;
+  }
+  

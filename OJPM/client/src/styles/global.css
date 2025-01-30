@@ -1,0 +1,47 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #1e3a8a; /* Dark blue header */
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #1e3a8a; /* Dark blue footer */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    font-size: 16px;
+    margin: 0;
+  }
+  

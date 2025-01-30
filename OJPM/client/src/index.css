@@ -1,0 +1,59 @@
+/* Reset some default browser styles (optional, Tailwind already does some reset) */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Apply Tailwind's base styles */
+@tailwind base;
+
+/* Apply Tailwind's component styles */
+@tailwind components;
+
+/* Apply Tailwind's utility styles */
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom page-specific background styles */
+body.home-page {
+  background-color: #f99797;
+  min-height: 500vh;
+   
+}
+
+body.admin-login-page {
+  background-color:  #e8e6fa; /* Dark grey background for Admin Login */
+}
+
+body.employer-login-page {
+  background-color: #5cb093;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+body.admin-dashboard-page {
+  background-color: #0ed30b; /* Light grey background for Admin Dashboard */
+}
+
+body.employer-dashboard-page {
+  background-color: #61605b; /* Light yellow background for Employer Dashboard */
+}
+
+
+/* Code styling */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

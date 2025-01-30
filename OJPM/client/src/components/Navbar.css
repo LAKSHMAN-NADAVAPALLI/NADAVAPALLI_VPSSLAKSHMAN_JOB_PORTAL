@@ -1,0 +1,56 @@
+/* Navbar styles */
+.navbar {
+  background-color:#a9dcba; /* Background color for navbar */
+  color: rgb(0, 0, 0); /* Text color */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Aligns items to opposite ends */
+  align-items: center; /* Centers items vertically */
+  padding: 1rem 2rem; /* Added padding for spacing */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-bottom: 1rem; /* Adds space below the navbar */
+}
+
+/* Navbar title */
+.navbar-title {
+  font-size: 1.8rem; /* Increased font size for better visibility */
+  font-weight: bold; /* Bold font for emphasis */
+}
+
+/* Navbar links */
+.navbar-links {
+  list-style: none; /* Remove default list styling */
+  display: flex; /* Use flexbox for link layout */
+  gap: 2rem; /* Space between the links */
+}
+
+/* Individual link styles */
+.navbar-links li {
+  position: relative; /* Positioning for hover effect */
+}
+
+.navbar-links li a {
+  color: rgb(82, 9, 184); /* Link color */
+  text-decoration: none; /* No underline by default */
+  font-size: 1rem; /* Font size for links */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Link hover effect */
+.navbar-links li a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #ffe600; /* Change color on hover for emphasis */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .navbar-links {
+    flex-direction: column; /* Stack links vertically */
+    gap: 1rem; /* Reduced gap between links */
+    margin-top: 1rem; /* Space above links */
+  }
+}

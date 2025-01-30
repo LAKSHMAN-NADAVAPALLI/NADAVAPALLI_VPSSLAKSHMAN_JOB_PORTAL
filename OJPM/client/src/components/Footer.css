@@ -1,0 +1,18 @@
+/* Footer styles */
+.footer {
+  background-color:#a9dcba; /* Consistent navbar color for footer */
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 1rem; /* Adds space above the footer */
+  z-index: 100; /* Ensures footer stays on top of other elements */
+}
+
+.footer p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bolder;
+}

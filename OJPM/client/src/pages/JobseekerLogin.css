@@ -1,0 +1,115 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #007bff, #6610f2);
+}
+  
+.login-card {
+    background: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 420px; /* Increased height slightly */
+}
+
+.login-title {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/* Floating Label Container */
+.input-container {
+    position: relative;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.input-label {
+    position: absolute;
+    top: 14px;
+    left: 12px;
+    font-size: 16px;
+    color: #777;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+/* When input is focused or has text, move label up */
+.login-input:focus ~ .input-label,
+.login-input:not(:placeholder-shown) ~ .input-label {
+    top: -10px;
+    left: 8px;
+    font-size: 12px;
+    color: #007bff;
+    background: white;
+    padding: 0 4px;
+}
+
+.login-input {
+    width: 100%;
+    padding: 14px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border 0.3s ease-in-out;
+    background: transparent;
+}
+
+.login-input:focus {
+    border: 1px solid #007bff;
+    outline: none;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.login-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin-top: auto;
+}
+
+.login-button:hover {
+    background: #000000;
+}
+
+.register-link {
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.register-link span {
+    color: #007bff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.register-link span:hover {
+    color: #000000;
+}
